@@ -1,0 +1,34 @@
+html{
+    margin:0;
+}
+
+body{
+    font-family: 'Quicksand', sans-serif;
+}
+#home-logo a {
+    font-family: 'Oleo Script', sans-serif;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: rgb(255, 119, 40);
+    text-decoration: underline;
+    padding: 5px 24px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 6);
+}
+nav ul{
+    width: 250px;
+    text-decoration:none ;
+    list-style: none;
+    display: flex;
+    padding: 0;
+    justify-content: space-evenly;
+}
+
+#header-container{
+    position:absolute;
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}

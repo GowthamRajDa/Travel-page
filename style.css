@@ -1,0 +1,47 @@
+#top-section {
+  height: 800px;
+  background-image: url(/Images/Places/Background.jpg);
+  background-position: center;
+  background-size: cover;
+}
+main {
+  text-align: center;
+}
+#main-container {
+  padding: 30px;
+  justify-content: space-evenly;
+  margin: 0px auto;
+  width: 500px;
+  height: auto;
+  background-color: rgba(0, 0, 0, 0.68);
+  border-radius: 25px;
+  position: relative;
+  top: 250px;
+}
+#main-container h1 {
+  font-family: "Raleway", sans-serif;
+  color: rgb(245, 245, 245);
+  font-size: 30px;
+  margin: 0;
+}
+
+#main-container p {
+  color: rgb(153, 227, 245);
+  font-size: 20px;
+}
+
+#discover {
+  display: inline-block;
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(46, 42, 42);
+  border-radius: 5px;
+  padding: 12px 24px;
+  background-color: rgb(255, 251, 0);
+}
+
+#discover:hover {
+  text-decoration: wavy;
+  color: tomato;
+  background-color: rgb(236, 232, 0);
+}
